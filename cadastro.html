@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FNAF</title>
+    <link rel="icon" href="freddy.png" type="image/png">
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <div id="menu">
+
+        <h1>FNAF</h1>
+        <h3>Five Nights At Freddy's</h3>
+
+        <hr>
+
+        <a href="index.html">Início</a>
+        |
+        <mark>Candidatura</mark>
+
+    </div>
+
+    <h2>FREDDY FAZBEAR'S PIZZA</h2>
+
+    <div class="container">
+        <div>
+            <h3>Local de Trabalho</h3>
+
+            <iframe src="https://maps.google.com/maps?q=American+Dream,+East+Rutherford,+New+Jersey&output=embed"
+            width="600"
+            height="400"
+            style="border: 0;"
+            Allowfullscreen
+            loading="lazy">
+            </iframe>
+        </div>
+
+        <form class="conteudo">
+            <h3>Candidatura pra Guarda Noturno</h3>
+            <p>Preencha os dados abaixo para participar do processo seletivo.</p>
+
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo aqui" size="50" minlength="3" maxlength="50" required>
+            <br><br>
+
+            <label for="idade">Idade:</label><br>
+            <input type="number" id="idade" name="idade" min="16" required>
+            <br><br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" size="50" placeholder="nome@exemplo.com" required>
+            <br><br>
+
+            <label for="trab">Você já trabalhou com segurança?</label><br>
+            <input type="radio" id="trabSim" name="trab">Sim
+            <input type="radio" id="trabNao" name="trab">Não
+            <br><br>
+
+            <label for="turno">Qual turno você prefere?</label><br>
+            <input type="checkbox" id="diurno" name="turno">Diurno
+            <input type="checkbox" id="noturno" name="turno">Noturno
+            <br><br>
+
+            <label for="msg">Porque devemos contratá-lo?</label><br>
+            <textarea id="msg" name="msg" size="50"></textarea>
+            <br><br>
+
+            <button>ENVIAR CANDIDATURA</button>
+        </form>
+    </div>
+    <br><br><br>
+</body>
+</html>
+
+</html>

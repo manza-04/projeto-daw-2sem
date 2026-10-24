@@ -1,0 +1,112 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+    
+    background: linear-gradient(30deg, #080808, #181010, #301414);
+    color: #E0E2DB;
+}
+
+
+#menu{
+    background-color: #202020;
+    color: #E0E2DB;
+    top: 0;
+    width: auto;
+    border: 2px solid #51401B;
+}
+#menu h1{
+    margin-top: 0;
+}
+hr{
+    border: 1px solid #51401B;
+    margin: 15px;
+}
+
+
+h1, h2, h3{
+    color: #F2B705;
+}
+a{
+    color: #E6E6E6;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: #F2B705;
+    text-decoration: underline;
+}
+mark{
+    padding: 5px;
+    background-color: #F2B705;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+
+.conteudo{
+    border: 4px solid #F2B705;
+    width: 40%;
+    margin: auto;
+    border-radius: 10%;
+    padding: 40px;
+    box-shadow: #51401B 6px 6px 10px;
+    background-color: #080808;
+    text-align: justify;
+    text-indent: 40px;
+    word-spacing: 6px;
+}
+.metade {
+    width: 60%;
+    margin: auto;
+}
+
+
+
+table {
+   margin: auto;
+   border: 3px solid #F2B705; 
+   border-collapse: collapse;
+}
+th, td{
+    padding: 20px;
+    border: 3px solid #F2B705;
+}
+th {
+    background-color: #202020;
+}
+td{
+    background-color: black;
+}
+table img{
+    width : 150px;
+    height: auto;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+table img:hover{
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+
+
+#lista{
+    text-align: justify;
+    border-left: 3px solid #F2B705;
+    width: 50%;
+    margin: auto;
+}
+li {
+    color: #F2B705;
+    margin-bottom: 40px;
+}
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+#lista p {
+    color: #E0E2DB;
+}
+
+
+
